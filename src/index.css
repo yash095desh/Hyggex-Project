@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #f9f9f9;
+}
+#navbar ul li {
+  margin: 20px;
+  font-size: 18px;
+  color: #3a3740;
+  font-weight: 400;
+  font-family: "Inter";
+  cursor: pointer;
+}
+#navbar button {
+  background: linear-gradient(180deg, #06286e, #164ec0);
+  border-radius: 30px;
+  margin: 8px 0px;
+  color: #fff;
+}
+#page-history {
+  font-family: "Inter";
+}
+.heading {
+  background: linear-gradient(180deg, #06286e, #164ec0);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-family: "Montserrat", sans-serif;
+}
+#mode ul li {
+  margin: 0px 20px;
+  font-size: 20;
+  font-weight: 500;
+  color: #696671;
+  cursor: pointer;
+}
+#screen {
+  background: linear-gradient(200deg, #051a91, #2284f1);
+}
+.logo-img {
+  border-radius: 300px;
+  box-shadow: 0px 0px 15px 1px grey;
+}
+#FAQ form select {
+  height: 58px;
+  width: 848px;
+  margin-bottom: 32px;
+  padding: 14px;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 16px;
+  border: 2px solid transparent;
+  background: linear-gradient(#f9f9f9, #f9f9f9) padding-box,
+    linear-gradient(90deg, #217eec, #082299);
+  border-radius: 12px;
+  cursor: pointer;
+}
